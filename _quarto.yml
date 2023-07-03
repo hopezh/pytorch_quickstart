@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "pytorch_quickstart"
+  author: "Norah Jones"
+  date: "03/07/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - quickstart.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+  pdf:
+    documentclass: scrreprt
+
+
+
