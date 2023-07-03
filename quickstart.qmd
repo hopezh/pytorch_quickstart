@@ -9,6 +9,7 @@ format:
 
 This section runs through the API for common tasks in machine learning. Refer to the links in each section to dive deeper.
 
+
 ## Working with data
 
 PyTorch has two primitives to work with data: `torch.utils.data.DataLoader` and `torch.utils.data.Dataset`. Dataset stores the samples and their corresponding labels, and DataLoader wraps an iterable around the `Dataset`.
@@ -62,7 +63,7 @@ for X, y in test_dataloader:
 
 read more about [loading data in pytorch](https://pytorch.org/tutorials/beginner/basics/data_tutorial.html).
 
---- 
+
 
 ## Creating Models
 
@@ -104,7 +105,7 @@ print(model)
 
 Read more about [building neural networks in PyTorch](https://pytorch.org/tutorials/beginner/basics/buildmodel_tutorial.html).
 
----
+
 
 ## Optimizing the Model Parameters
 
